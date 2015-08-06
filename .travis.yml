@@ -3,6 +3,11 @@ language: node_js
 node_js:
   - 0.10
 
+addons:
+  sauce_connect:
+    username: "martin7890"
+    access_key: "01e37814-e742-47dd-887e-a8992606b2e7"
+    
 env:
   matrix:
     - BROWSER=chrome  BVER=stable
